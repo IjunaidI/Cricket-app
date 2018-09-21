@@ -1,6 +1,6 @@
 animate = ['data-aos="fade-left"','data-aos="fade-right"','data-aos="fade-up-right"','data-aos="fade-down"','data-aos="zoom-in"','data-aos="zoom-in-left"','data-aos="zoom-in-right"','data-aos="zoom-in-left"','data-aos="zoom-in-left"']
     $.ajax({
-    url:"http://cricapi.com/api/matchCalendar?apikey=CdEzfLBSkHZ3nXRpB6iPbvMmOwG3",
+    url:"https://cricapi.com/api/matchCalendar?apikey=CdEzfLBSkHZ3nXRpB6iPbvMmOwG3",
     success:function(data){
         
         for(i=0;i<5;i++){
@@ -17,7 +17,7 @@ animate = ['data-aos="fade-left"','data-aos="fade-right"','data-aos="fade-up-rig
     function loadMore(){
     $(".load-more").remove();
     $.ajax({
-        url:"http://cricapi.com/api/matchCalendar?apikey=CdEzfLBSkHZ3nXRpB6iPbvMmOwG3",
+        url:"https://cricapi.com/api/matchCalendar?apikey=CdEzfLBSkHZ3nXRpB6iPbvMmOwG3",
         success:function(data){
             for(i=5;i<11;i++){
                  document.querySelector(".b-box").innerHTML += 
