@@ -31,3 +31,12 @@ animate = ['data-aos="fade-left"','data-aos="fade-right"','data-aos="fade-up-rig
         
         })
     }
+    function navBar() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    

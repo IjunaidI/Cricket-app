@@ -47,7 +47,14 @@ function switchToHome(){
     document.querySelector(".welcome").style.display = "none";    
     document.querySelector(".main-container").style.visibility = "visible";
 }
-
+function navBar() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
 
 
 
