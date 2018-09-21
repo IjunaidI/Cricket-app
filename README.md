@@ -1,5 +1,5 @@
 # Cricket-api
-URL to website : https://ijunaidi.github.io/firebase/
+URL to website : https://ijunaidi.github.io/Cricket-app/
 
 A Website where you can find out about Upcoming and Recent matches,Cricket world news,Statistics about Players and Matches schedule.
 
