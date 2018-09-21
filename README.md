@@ -3,14 +3,14 @@ URL to website : https://ijunaidi.github.io/firebase/
 
 A Website where you can find out about Upcoming and Recent matches,Cricket world news,Statistics about Players and Matches schedule.
 
-#Skills Required
+## Skills Required
 * HTML
 * CSS
 * Javascript
 * Jquery
 * Ajax
 
-#Libraries Used
+## Libraries Used
 * particles js (Animation)
 * slick (Slide Show)
 * Typing Crousel (Text Animation)
