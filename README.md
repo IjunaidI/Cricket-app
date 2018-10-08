@@ -10,7 +10,7 @@ A Website where you can find out about Upcoming and Recent matches,Cricket world
 * Jquery
 * Ajax
 
-## Libraries Used
+##### Libraries Used
 * particles js (Animation)
 * slick (Slide Show)
 * Typing Crousel (Text Animation)
